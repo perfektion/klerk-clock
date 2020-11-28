@@ -82,7 +82,7 @@ const clock = {
 
   methods: {
     getTime() {
-      const url = "https://worldtimeapi.org/api/timezone/Europe/London";
+      const url = "https://worldtimeapi.org/api/timezone/etc/UTC";
       this.time = new Date().getTime();
       this.message = "Получение точного времени с сервера!";
       fetch(url, { mode: "cors" })
