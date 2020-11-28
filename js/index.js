@@ -1,12 +1,12 @@
 const clock = {
   data: () => ({
     title: "Время в",
-    cities: [
-      {
-        name: "Лондон",
-        offset: 0,
-        img: "./img/London.svg",
-      },
+//     cities: [
+//       {
+//         name: "Лондон",
+//         offset: 0,
+//         img: "./img/London.svg",
+//       },
       {
         name: "Москва",
         offset: +3,
